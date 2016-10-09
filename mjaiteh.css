@@ -1,0 +1,58 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.titles {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 2px;
+  pointer-events: none;
+  font-weight: 400;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #595959;
+}
+.cartoon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width:200px;
+  height:auto;
+}
+a {
+  text-decoration: none;
+  color: #FF1493;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+}
+
+.bullets {
+  color: black;
+}
+
+.social {
+  color: #FF1493;
+}
