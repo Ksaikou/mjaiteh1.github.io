@@ -3,7 +3,12 @@ canvas.width = document.body.offsetWidth;
 canvas.height = document.body.scrollHeight;
 var ctx = canvas.getContext("2d");
 var background = "#eeeeee"; // '#001c33'
+<<<<<<< Updated upstream
 var network = "orange";  // "#448fda"; a = color: #ffff66;
+=======
+var network = "orange"
+  
+>>>>>>> Stashed changes
 
 var TAU = 2 * Math.PI;
 
@@ -35,7 +40,7 @@ function Ball (startX, startY, startVelX, startVelY) {
   this.draw = function(ctx, can) {
     ctx.beginPath();
     ctx.globalAlpha = .4;
-    ctx.fillStyle = network;
+    ctx.fillStyle = network 
     ctx.arc((0.5 + this.x) | 0, (0.5 + this.y) | 0, 3, 0, TAU, false);
     ctx.fill();
   }
