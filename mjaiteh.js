@@ -5,10 +5,6 @@ var ctx = canvas.getContext("2d");
 var background = "#eeeeee"; // '#001c33'
 <<<<<<< Updated upstream
 var network = "orange";  // "#448fda"; a = color: #ffff66;
-=======
-var network = "orange"
-  
->>>>>>> Stashed changes
 
 var TAU = 2 * Math.PI;
 
