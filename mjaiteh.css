@@ -1,8 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
 }
 
 canvas {
@@ -19,7 +18,7 @@ canvas {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2em;
   font-family: 'Indie Flower', cursive;
   letter-spacing: 2px;
   pointer-events: none;
@@ -39,7 +38,7 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: #FF1493;
+  color: orange;
 }
 
 p {
@@ -54,5 +53,5 @@ p {
 }
 
 .social {
-  color: #FF1493;
+  color: black ;
 }
