@@ -3,7 +3,7 @@ canvas.width = document.body.offsetWidth;
 canvas.height = document.body.scrollHeight;
 var ctx = canvas.getContext("2d");
 var background = "#eeeeee"; // '#001c33'
-var network = "pink";  // "#448fda"; a = color: #ffff66;
+var network = "orange";  // "#448fda"; a = color: #ffff66;
 
 var TAU = 2 * Math.PI;
 
